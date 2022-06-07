@@ -1,0 +1,147 @@
+﻿/* --------------------------------------
+ * BREADCRUMBS
+ * -------------------------------------- */
+
+.breadcrumb {
+  border: 1px solid #e7e7e7;
+  border-style: solid none;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.14);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+.breadcrumb ul,
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb li {
+  color: #c3c3c3;
+  display: inline-block;
+  list-style: none;
+  margin: 5px 50px 5px 0;
+  position: relative;
+}
+
+.breadcrumb li:first-of-type {
+  margin-left: 0;
+}
+
+.breadcrumb li:last-of-type {
+  margin-right: 0;
+}
+
+.breadcrumb li:last-of-type:before {
+  display: none;
+}
+
+.breadcrumb li:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 14px;
+  right: -30px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.breadcrumb a {
+  color: #000000;
+}
+
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  color: #fab702;
+}
+
+.page-header + .breadcrumb {
+  border-top: none;
+}
+
+
+.page-header {
+  background-color: #f8f9f9;
+  margin: 0;
+  position: relative;
+}
+
+.page-header .page-title {
+  color: #fff;
+   font-family: 'Open Sans' ;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .page-header .page-title {
+    font-size: 20px;
+  }
+}
+
+/* Background Media
+ * -------------------------------------- */
+
+.page-header-media {
+  background-size: cover;
+  margin: 0 -15px;
+  overflow: hidden;
+}
+
+.page-header-media .page-title {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.page-header-media:before {
+  background-color: rgba(0, 0, 0, 0.4);
+  content: "";
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .page-header-media .page-header-video {
+    display: none;
+  }
+}
+
+.page-header-media .page-header-video {
+  min-height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  min-width: 100%;
+  z-index: 0;
+}
+
+.page-header-media .page-header-video iframe,
+.page-header-media .page-header-video video {
+  height: 100%;
+  width: 100%;
+}
+
+/* Small version
+ * -------------------------------------- */
+
+.page-header-sm {
+  padding: 43px 0;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .page-header-sm {
+    padding: 73px 0;
+  }
+}
