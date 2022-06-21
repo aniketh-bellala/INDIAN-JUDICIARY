@@ -6,7 +6,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![HOME](https://user-images.githubusercontent.com/90592299/174823326-f8e78774-01ca-42ab-8c82-1f9057bb9cdc.png)
+
 
 This project focuses on the primary activities occurring in the court.
 In this digital era, we try to make activities hassle free by
@@ -47,6 +48,8 @@ for a faster and efficient functioning of courts.
 <!-- USAGE EXAMPLES -->
 ## Usage
 This project is implemented only on some areas of the entire routine of judiciary activities and hence it assumes, the uncovered areas to take place as it is.
+
+![LOGIN](https://user-images.githubusercontent.com/90592299/174823516-69c65e7b-04c5-4ef9-8c51-17867cbe2ba8.png)
 
 ### Clients
 * Each Client must create an account to login and use the features.
