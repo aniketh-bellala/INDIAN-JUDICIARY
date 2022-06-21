@@ -1,0 +1,15 @@
+
+table.table thead tr  .order-asc {
+    background-image: url(../images/asc.jpeg);
+    
+}
+table.table thead tr .order-desc {
+    background-image: url(../images/desc.jpeg);
+}
+
+table.table thead tr th {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-image: url(../images/bg.jpeg);
+}

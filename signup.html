@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SignUp</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link id="pagestyle" rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/more_nav.css">
+<link rel="shortcut icon" type="image/jpg" href="./images/logo.jpeg"/>
+
+
+<link rel="stylesheet" href="navigation/styles.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="navigation/script.js"></script>
+
+<script type="text/javascript">
+    function changesheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet); 
+    }
+</script>
+<style>
+    body {
+        color: #fff;
+        background: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .form-control {
+        height: 40px;
+        box-shadow: none;
+        color: #212529;
+    }
+
+    .form-control:focus {
+        border-color: #007BFF;
+    }
+
+    .form-control,
+    .btn {
+        border-radius: 3px;
+    }
+
+    .signup-form {
+        width: 450px;
+        margin: 0 auto;
+        padding: 100px 0;
+        font-size: 15px;
+        color: #f7f7f7;
+    }
+
+    .signup-form h2 {
+        color: #212529;
+        margin: 0 0 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    .signup-form h2:before,
+    .signup-form h2:after {
+        content: "";
+        height: 2px;
+        width: 30%;
+        background: #212529;
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+    }
+
+    .signup-form h2:before {
+        left: 0;
+    }
+
+    .signup-form h2:after {
+        right: 0;
+    }
+
+    .signup-form .hint-text {
+        color: #212529;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .signup-form form {
+        color: #007BFF;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+
+    .signup-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .signup-form input[type="checkbox"] {
+        margin-top: 3px;
+    }
+
+    .signup-form .btn {
+        font-size: 16px;
+        font-weight: bold;
+        min-width: 140px;
+        outline: none !important;
+    }
+
+    .signup-form .row div:first-child {
+        padding-right: 10px;
+    }
+
+    .signup-form .row div:last-child {
+        padding-left: 10px;
+    }
+
+    .signup-form a {
+        color: #007BFF;
+        text-decoration: underline;
+    }
+
+    .signup-form a:hover {
+        text-decoration: none;
+    }
+
+    .signup-form form a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .signup-form form a:hover {
+        text-decoration: underline;
+    }
+
+    .text-center {
+        color: #212529;
+    }
+
+
+    .form-group date::placeholder {
+        color: #212529;
+    }
+
+    .date-label {
+        color: #212529;
+    }
+
+    .form-group button {
+        background-color: #007BFF;
+    }
+
+    .form-check-label {
+        color: #212529;
+    }
+    #signUpBar{
+       margin-left: 15px;
+       padding: 5px;
+     }
+     #footer{
+         font-weight: normal;
+         font-family: 'Open Sans';
+         font: 13px;
+     }
+     .loginSpan{
+      font-size: x-large;
+      color: #f7f7f7;
+     }
+</style>
+</head>
+
+<body>
+
+<div class="top-header">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-12 text-md-left text-center leftmy">
+            <ul class="top_nav1">
+              <li><i class="fa fa-calendar"></i> <span id="datedisplay"></span></li>
+              <li><i class="fa fa-clock-o"></i> <span id="clockDisplay"></span></li>
+            </ul>
+         </div>
+         <div class="col-md-8 col-12 text-md-right text-center righthd">
+          <ul class="top_nav">
+          </ul>
+       </div>
+         
+      
+      </div>
+   </div>
+</div>
+
+
+  <div class="header">
+    <div class="container">
+      <div class="row">
+         <div class="logo"><a href="#"><img src="images/embnew.jpg" /></a></div>
+         <div class="col-md-6 h_right text-right">
+            
+         </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="main_navigation">
+    <div class="container">
+      <div class="row">
+        <div id='cssmenu'>
+             <div id="signUpBar">
+              <span class="loginSpan"></span><span class="loginSpan"></span><span class="loginSpan"> Sign Up</span>
+             </div>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class>
+    <div class="signup-form">
+        <form action="connect.php" method="POST">
+            <h2>Sign Up</h2>
+            <p class="hint-text">Fill the form below to create your account.</p>
+            <div class="form-group">
+                    <input type="text" class="form-control" name="full_name" placeholder="Full Name"
+                            required="required">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="text" id="data" class="form-control" name="aadhaar" placeholder="Aadhaar ID" minlength="12"
+                    maxlength="12" oninvalid="alert('Please Enter valid Aadhaar ID');" required="required">
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control" name="dob" placeholder="DD/MM/YYYY" required="required">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="mobile" placeholder="Mobile Number" required="required"
+                    minlength="10" maxlength="10">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="address" placeholder="Address" maxlength="100"
+                    required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+                <label class="form-check-label"><input type="checkbox" required="required"> I accept the Terms of Use
+                    &amp; Privacy Policy</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Create Account</button>
+            </div>
+        </form>
+        <div class="text-center">Already have an account? <a href="/login.html">Login</a></div>
+    </div>
+</div>
+
+
+
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="copyright">
+                <p>
+                  <span id="footer">Designed by T Naga Tarun, Ajay Vikram P, Aniketh Narayan Bellala</span>
+                </p>
+                
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myheader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+
+<script src="js/main.js"></script>
+<script src="js/font.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
