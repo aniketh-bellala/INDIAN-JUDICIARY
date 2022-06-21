@@ -18,8 +18,6 @@ cases, lawyers and the honourable judges of different courts across
 India, online with secured access. Results retrieved will be helpful
 for a faster and efficient functioning of courts.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Built With
 
 * HTML
@@ -27,9 +25,6 @@ for a faster and efficient functioning of courts.
 * JavaScript
 * MySQL
 * PHP
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -48,9 +43,6 @@ for a faster and efficient functioning of courts.
 *  Now, you're ready to use the project!
 *  To visit the project, type localhost/[_folder_name_]/index.php in the browser to open the home page.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -58,9 +50,6 @@ for a faster and efficient functioning of courts.
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -70,6 +59,5 @@ Aniketh Narayan Bellala - aniketh.bellala@gmail.com
 
 Project Link: (https://github.com/aniketh-bellala/INDIAN-JUDICIARY.git)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
