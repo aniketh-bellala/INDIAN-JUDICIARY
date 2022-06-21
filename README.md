@@ -46,11 +46,24 @@ for a faster and efficient functioning of courts.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+This project is implemented only on some areas of the entire routine of judiciary activities and hence it assumes, the uncovered areas to take place as it is.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Clients
+* Each Client must create an account to login and use the features.
+* Once logged in, He/She can file cases, check case records etc.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Lawyers
+* Assumed that the lawyer will be assigned a Lawyer ID & password by the Admin.
+* Can accept/request client requests.
 
+### Judges
+* Assumed that the judge will be assigned a Judge ID & password by the Admin.
+* Scheduling/filing cases.
+
+### CJI (Admin)
+* Has full access to the website and system.
+* Modify/delete laws.
+* Appoint/Promote Judges to a higher level.
 
 <!-- CONTACT -->
 ## Contact
